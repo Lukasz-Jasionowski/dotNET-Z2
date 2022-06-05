@@ -22,7 +22,7 @@ namespace dotNET_Z2
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
     }
 }
