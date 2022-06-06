@@ -25,14 +25,14 @@
         </Grid.RowDefinitions>
         <TextBox Name="text" IsReadOnly="True" Grid.Row="1" Grid.ColumnSpan="4" Background="White"/>
         <TextBox Name="display" IsReadOnly="True" Grid.Row="0" Grid.ColumnSpan="4" Background="White"/>
-        <Button Name="Procent" Grid.Row="2" Grid.Column="0" Click="Procent_Click">%</Button>
-        <Button Name="CE" Grid.Row="2" Grid.Column="1" Click="CE_Click">CE</Button>
+        <Button Name="Modulo" Grid.Row="2" Grid.Column="0" Click="Modulo_Click">Mod</Button>
+        <Button Name="Silnia" Grid.Row="2" Grid.Column="1" Click="Silnia_Click">n!</Button>
         <Button Name="C" Grid.Row="2" Grid.Column="2" Click="C_Click">C</Button>
-        <Button Name="Cofnij" Grid.Row="2" Grid.Column="3" Click="Cofnij_Click">⌫</Button>
+        <Button Name="Floor" Grid.Row="3" Grid.Column="1" Click="Floor_Click">↓</Button>
         <Button Name="Podziel" Grid.Row="3" Grid.Column="3" Click="Podziel_Click">÷</Button>
         <Button Name="Pierwiastek" Grid.Row="3" Grid.Column="2" Click="Pierwiastek_Click">√</Button>
-        <Button Name="DoKwadratu" Grid.Row="3" Grid.Column="1" Click="DoKwadratu_Click">x²</Button>
-        <Button Name="JedenPrzezX" Grid.Row="3" Grid.Column="0" Click="JedenPrzezX_Click">¹⁄ₓ</Button>
+        <Button Name="DoKwadratu" Grid.Row="2" Grid.Column="3" Click="DoKwadratu_Click">x²</Button>
+        <Button Name="JedenPrzezX" Grid.Row="3" Grid.Column="0" Click="Ceiling_Click">↑</Button>
         <Button Name="Siedem" Grid.Row="4" Grid.Column="0" Click="Siedem_Click">7</Button>
         <Button Name="Osiem" Grid.Row="4" Grid.Column="1" Click="Osiem_Click">8</Button>
         <Button Name="Dziewiec" Grid.Row="4" Grid.Column="2" Click="Dziewiec_Click">9</Button>
