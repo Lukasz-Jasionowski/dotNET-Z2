@@ -35,6 +35,7 @@ namespace dotNET_Z2
             mar = '%';
             num1 = float.Parse(text.Text, CultureInfo.InvariantCulture.NumberFormat);
             text.Text = "";
+            display.Text = "%";
         }
 
         private void CE_Click(object sender, RoutedEventArgs e)

@@ -21,31 +21,33 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <TextBox Name="text" IsReadOnly="True" Grid.Row="0" Grid.ColumnSpan="4" Background="White"/>
-        <Button Name="Procent" Grid.Row="1" Grid.Column="0" Click="Procent_Click">%</Button>
-        <Button Name="CE" Grid.Row="1" Grid.Column="1" Click="CE_Click">CE</Button>
-        <Button Name="C" Grid.Row="1" Grid.Column="2" Click="C_Click">C</Button>
-        <Button Name="Cofnij" Grid.Row="1" Grid.Column="3" Click="Cofnij_Click">⌫</Button>
-        <Button Name="Podziel" Grid.Row="2" Grid.Column="3" Click="Podziel_Click">÷</Button>
-        <Button Name="Pierwiastek" Grid.Row="2" Grid.Column="2" Click="Pierwiastek_Click">√</Button>
-        <Button Name="DoKwadratu" Grid.Row="2" Grid.Column="1" Click="DoKwadratu_Click">x²</Button>
-        <Button Name="JedenPrzezX" Grid.Row="2" Grid.Column="0" Click="JedenPrzezX_Click">¹⁄ₓ</Button>
-        <Button Name="Siedem" Grid.Row="3" Grid.Column="0" Click="Siedem_Click">7</Button>
-        <Button Name="Osiem" Grid.Row="3" Grid.Column="1" Click="Osiem_Click">8</Button>
-        <Button Name="Dziewiec" Grid.Row="3" Grid.Column="2" Click="Dziewiec_Click">9</Button>
-        <Button Name="Mnozenie" Grid.Row="3" Grid.Column="3" Click="Mnozenie_Click">×</Button>
-        <Button Name="Minus" Grid.Row="4" Grid.Column="3" Click="Minus_Click">–</Button>
-        <Button Name="Szesc" Grid.Row="4" Grid.Column="2" Click="Szesc_Click">6</Button>
-        <Button Name="Piec" Grid.Row="4" Grid.Column="1" Click="Piec_Click">5</Button>
-        <Button Name="Cztery" Grid.Row="4" Grid.Column="0" Click="Cztery_Click">4</Button>
-        <Button Name="Jeden" Grid.Row="5" Grid.Column="0" Click="Jeden_Click">1</Button>
-        <Button Name="Dwa" Grid.Row="5" Grid.Column="1" Click="Dwa_Click">2</Button>
-        <Button Name="Trzy" Grid.Row="5" Grid.Column="2" Click="Trzy_Click">3</Button>
-        <Button Name="Dodac" Grid.Row="5" Grid.Column="3" Click="Dodac_Click">+</Button>
-        <Button Name="RownaSie" Grid.Row="6" Grid.Column="3" Click="RownaSie_Click">=</Button>
-        <Button Name="Przecinek" Grid.Row="6" Grid.Column="2" Click="Przecinek_Click">,</Button>
-        <Button Name="Zero" Grid.Row="6" Grid.Column="1" Click="Zero_Click">0</Button>
-        <Button Name="ZmianaZnaku" Grid.Row="6" Grid.Column="0" Click="ZmianaZnaku_Click">⁺⁄₋</Button>
+        <TextBox Name="text" IsReadOnly="True" Grid.Row="1" Grid.ColumnSpan="4" Background="White"/>
+        <TextBox Name="display" IsReadOnly="True" Grid.Row="0" Grid.ColumnSpan="4" Background="White"/>
+        <Button Name="Procent" Grid.Row="2" Grid.Column="0" Click="Procent_Click">%</Button>
+        <Button Name="CE" Grid.Row="2" Grid.Column="1" Click="CE_Click">CE</Button>
+        <Button Name="C" Grid.Row="2" Grid.Column="2" Click="C_Click">C</Button>
+        <Button Name="Cofnij" Grid.Row="2" Grid.Column="3" Click="Cofnij_Click">⌫</Button>
+        <Button Name="Podziel" Grid.Row="3" Grid.Column="3" Click="Podziel_Click">÷</Button>
+        <Button Name="Pierwiastek" Grid.Row="3" Grid.Column="2" Click="Pierwiastek_Click">√</Button>
+        <Button Name="DoKwadratu" Grid.Row="3" Grid.Column="1" Click="DoKwadratu_Click">x²</Button>
+        <Button Name="JedenPrzezX" Grid.Row="3" Grid.Column="0" Click="JedenPrzezX_Click">¹⁄ₓ</Button>
+        <Button Name="Siedem" Grid.Row="4" Grid.Column="0" Click="Siedem_Click">7</Button>
+        <Button Name="Osiem" Grid.Row="4" Grid.Column="1" Click="Osiem_Click">8</Button>
+        <Button Name="Dziewiec" Grid.Row="4" Grid.Column="2" Click="Dziewiec_Click">9</Button>
+        <Button Name="Mnozenie" Grid.Row="4" Grid.Column="3" Click="Mnozenie_Click">×</Button>
+        <Button Name="Minus" Grid.Row="5" Grid.Column="3" Click="Minus_Click">–</Button>
+        <Button Name="Szesc" Grid.Row="5" Grid.Column="2" Click="Szesc_Click">6</Button>
+        <Button Name="Piec" Grid.Row="5" Grid.Column="1" Click="Piec_Click">5</Button>
+        <Button Name="Cztery" Grid.Row="5" Grid.Column="0" Click="Cztery_Click">4</Button>
+        <Button Name="Jeden" Grid.Row="6" Grid.Column="0" Click="Jeden_Click">1</Button>
+        <Button Name="Dwa" Grid.Row="6" Grid.Column="1" Click="Dwa_Click">2</Button>
+        <Button Name="Trzy" Grid.Row="6" Grid.Column="2" Click="Trzy_Click">3</Button>
+        <Button Name="Dodac" Grid.Row="6" Grid.Column="3" Click="Dodac_Click">+</Button>
+        <Button Name="RownaSie" Grid.Row="7" Grid.Column="3" Click="RownaSie_Click">=</Button>
+        <Button Name="Przecinek" Grid.Row="7" Grid.Column="2" Click="Przecinek_Click">,</Button>
+        <Button Name="Zero" Grid.Row="7" Grid.Column="1" Click="Zero_Click">0</Button>
+        <Button Name="ZmianaZnaku" Grid.Row="7" Grid.Column="0" Click="ZmianaZnaku_Click">⁺⁄₋</Button>
     </Grid>
 </Window>
